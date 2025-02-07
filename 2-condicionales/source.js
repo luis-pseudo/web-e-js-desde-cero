@@ -1,0 +1,6 @@
+let nota=prompt("escribe la nota")
+if(nota>=90&&nota<=100) console.log("Excelente")
+else if (nota>=75&&nota<=100) console.log("Bien")
+else if (nota>=60&&nota<=100) console.log("suficiente")
+else if (nota>0&&nota<=100) console.log("reprobado :(")
+else console.log("valor no valido!!")
