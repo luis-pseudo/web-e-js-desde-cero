@@ -30,7 +30,7 @@ function generatePassword(){
     for (let index = 0; index < charLength.innerText; index++) {
         if(numbers.checked && symbols.checked) generatedPassword+=chars[Math.floor(Math.random() * chars.length)]
         else if(numbers.checked) generatedPassword+=chars[numberspswd()]
-        else if(symbols.checked) generatedPassword+=chars[symbolspswd()]
+        else if(symbols.checked) generatedPassword+=chars[Math.floor(Math.random() * 66)]
         else generatedPassword+=chars[Math.floor(Math.random() * 52)]
     }
     passwordOutput.value=generatedPassword
@@ -40,12 +40,6 @@ function generatePassword(){
 function numberspswd(){
     let n=0
     do n=Math.floor(Math.random() * chars.length); while(n>51&&n<66)
-    return n; 
-}
-
-function symbolspswd(){
-    let n=0
-    do n=Math.floor(Math.random() * chars.length); while(n>65)
     return n; 
 }
 
