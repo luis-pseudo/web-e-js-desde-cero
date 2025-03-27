@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Montserrat';
+}
+
+body{
+    margin: 0;
+    padding: 2%;
+    background-color: rgb(59, 60, 71);
+}
+
+#input{
+    width: 30%;
+    min-width: 20em;
+    height: 3em;
+    border-radius: 5px;
+}
+
+#btn{
+    height: 3em;
+    width: 3em;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(61, 103, 255);
+    color: white;
+}
+
+#commentbox{
+    width: 50%;
+    height: auto;
+    min-height: 3em;
+    background-color: rgb(67, 67, 76);
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 20px;
+    padding: 1em;
+}
+
+#commentbox h2{
+    color: white;
+    margin-top: 0;
+}
+
+#comments{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    list-style: none;
+    height: auto;
+    width: auto;
+}
+
+#comments li{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.564);
+    border-radius: 5px;
+    color: white;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    justify-content: space-between;
+}
+
+#comments li .commentdiv{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#comments li .btndiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 5%;
+    max-width: 30px;
+    height: auto;
+}
+
+#comments li p{
+    display: flex;
+    margin: 0;
+}
+
+#comments li button{
+    display: flex;
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+#comments li button img{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+#comments li .comment{
+    font-size: 1.2em;
+}
+
+#comments li .date{
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.688);
+}
