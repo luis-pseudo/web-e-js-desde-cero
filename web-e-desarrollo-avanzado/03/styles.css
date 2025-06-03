@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Montserrat';
+}
+
+#data-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: auto;
+    margin: 15px;
+    padding: 1%;
+    border: 1px solid;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.pokeimg{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    height: auto;
+}
