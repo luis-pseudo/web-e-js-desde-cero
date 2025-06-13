@@ -17,4 +17,5 @@ form.addEventListener("submit", function(event){
         "doc": document.getElementById("archivo").value
     }
     console.log(data)
+    alert("registrado 👍")
 })
